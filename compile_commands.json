@@ -1,0 +1,11 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "scratch.cpp"
+    ],
+    "directory": "/home/prabesh/Programming/Cpp/Assignments",
+    "file": "/home/prabesh/Programming/Cpp/Assignments/scratch.cpp"
+  }
+]

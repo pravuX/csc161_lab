@@ -21,11 +21,13 @@ public:
       cout << "Error! Cannot push. Stack is Full!" << endl;
   }
 
-  void pop() {
+  T pop() {
+    T popped_value = array[top];
     if (top > -1)
       top--;
     else
       cout << "Error! Cannot pop. Stack is Empty!" << endl;
+    return popped_value;
   }
 
   void show() {
