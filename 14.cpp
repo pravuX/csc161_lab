@@ -31,8 +31,9 @@ public:
   }
 
   void show() {
-    for (int i = 0; i <= top; i++) {
-      cout << setw(4) << left << array[i];
+    cout << "Stack: " << endl;
+    for (int i = top; i >= 0; i--) {
+      cout << array[i] << endl;
     }
   }
 
@@ -52,6 +53,8 @@ int main() {
     cin >> el;
     s1.push(el);
   }
+  s1.show();
+  cout << "After popping" << endl;
   s1.pop();
   s1.show();
   return 0;
