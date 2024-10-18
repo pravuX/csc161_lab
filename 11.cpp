@@ -102,7 +102,7 @@ int main() {
     m3 = m1 + m2;
     m3.show();
 
-    cout << endl << "Matrix 1 * Matrix 2" << endl;
+    cout << endl << "Matrix 1 x Matrix 2" << endl;
     m4 = m1 * m2;
     m4.show();
 
